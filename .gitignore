@@ -1,0 +1,15 @@
+# Composer dependencies (run: composer install)
+/vendor/
+
+# Local environment / secrets
+/.env
+
+# Stray local test artefacts
+/cinj.txt
+/cinj2.txt
+*.log
+
+# OS metadata
+Thumbs.db
+desktop.ini
+.DS_Store
