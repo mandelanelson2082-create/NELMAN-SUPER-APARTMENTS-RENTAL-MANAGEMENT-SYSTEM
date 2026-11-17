@@ -27,7 +27,7 @@ $tenantShell = $nav === 'tenant' && current_tenant() !== null;
   <div class="admin-shell">
   <?php include __DIR__ . '/admin_nav.php'; ?>
   <div class="admin-content">
-  <div class="admin-mobile-header d-md-none">
+  <div class="admin-mobile-header d-lg-none">
     <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#adminSidebar" aria-controls="adminSidebar" aria-label="Open admin menu">
       <i class="bi bi-list"></i>
     </button>

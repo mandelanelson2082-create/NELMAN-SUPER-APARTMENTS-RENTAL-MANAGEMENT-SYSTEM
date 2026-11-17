@@ -13,13 +13,13 @@ $adminLinks = [
   ['email_config.php', 'Email', 'envelope-gear'],
 ];
 ?>
-<aside class="offcanvas-md offcanvas-start admin-sidebar" tabindex="-1" id="adminSidebar" aria-label="Admin navigation">
+<aside class="offcanvas-lg offcanvas-start admin-sidebar" tabindex="-1" id="adminSidebar" aria-label="Admin navigation">
   <div class="admin-sidebar-header">
     <a class="navbar-brand fw-bold" href="<?= e(base_url('admin/dashboard.php')) ?>" data-admin-link>
       <span class="admin-brand-icon"><i class="bi bi-buildings"></i></span>
       <span class="admin-brand-copy"><span class="admin-brand-name"><?= e(APP_NAME) ?></span><span class="admin-brand-caption">PROPERTY MANAGEMENT</span></span>
     </a>
-    <button type="button" class="btn-close btn-close-white d-md-none" data-bs-dismiss="offcanvas" data-bs-target="#adminSidebar" aria-label="Close menu"></button>
+    <button type="button" class="btn-close btn-close-white d-lg-none" data-bs-dismiss="offcanvas" data-bs-target="#adminSidebar" aria-label="Close menu"></button>
   </div>
   <div class="admin-nav-caption">Main menu</div>
   <nav class="nav nav-pills flex-column admin-sidebar-nav">
